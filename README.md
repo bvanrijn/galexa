@@ -1,7 +1,7 @@
 # galexa
 The chat app without a client
 
-## Current API overview
+## API overview
 
 All paths are relative to `base_url`.  
 `base_url` is currently `https://galexa.herokuapp.com`.
