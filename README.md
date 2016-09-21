@@ -6,9 +6,23 @@ The chat app without a client
 All paths are relative to `base_url`.  
 `base_url` is currently `https://galexa.herokuapp.com`.
 
-## 🚧 Index or `/`
+## Index or `/`
 
-Get all endpoints. This endpoint is being worked on.
+Get all endpoints.
+
+```
+{
+    "computer": 0, 
+    "endpoints": [
+        "/", 
+        "/status", 
+        "/message/write", 
+        "/message/read"
+    ], 
+    "human": "OK", 
+    "time": 1474464099
+}
+```
 
 ## Status or `/status`
 **Note**: if you don't receive a reply of any kind within 10 seconds, the server is probably down.
